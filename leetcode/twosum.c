@@ -2,7 +2,9 @@
 int main() {
    // printf() displays the string inside quotation
    int nums[] = {0,1,2,3,4,5,6,7,8,9,10};
-   int target = 8;
+   int target;
+   printf("Target? \n");
+   scanf("%d", &target);
    int len = *(&nums +1) - nums;
    for (int i = 0; i < len; i++) {
       // printf("%d\n", nums[i]);
